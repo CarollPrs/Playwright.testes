@@ -5,6 +5,7 @@ test.describe('Formulário de Cadastro de Clientes', () => {
   test.beforeEach(async ({ page }) => {
     // Altere para o caminho/URL onde o index.html está rodando
     await page.goto('file:///C:/Users/CAPIRES/OneDrive%20-%20Capgemini/Desktop/index.html'); 
+    
   });
 
   test('CT-01 e CT-02: Deve cadastrar cliente com sucesso', async ({ page }) => {
